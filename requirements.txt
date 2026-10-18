@@ -1,0 +1,10 @@
+# Frozen Cloud runtime to prevent surprise Streamlit 1.66 / pyarrow 26 changes.
+# Python version is chosen in Community Cloud deployment settings, not here.
+streamlit==1.59.2
+pandas==2.3.3
+numpy==2.5.4
+plotly==6.9.0
+requests==2.34.2
+yfinance==0.2.66
+lxml==6.1.3
+pyarrow==24.0.0
